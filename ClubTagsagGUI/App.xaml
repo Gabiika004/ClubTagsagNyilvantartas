@@ -1,0 +1,15 @@
+﻿<Application x:Class="ClubTagsagGUI.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:ClubTagsagGUI"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <Style x:Key="CustomFont">
+            <Setter Property="TextElement.FontFamily">
+                <Setter.Value>
+                    <FontFamily>./Fonts/#Irish Grover</FontFamily>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Application.Resources>
+</Application>
